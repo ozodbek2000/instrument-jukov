@@ -18,13 +18,13 @@ const productCardsHtml = prods.map(p => {
   const title = p.shortName || p.name;
   return `            <!-- Товар ${p.sku} -->
             <article class="product-card" data-category="${catClasses}" data-price="${p.price}" data-name="${escapeAttr(p.name.toLowerCase())}" data-sku="${escapeAttr(p.sku.toLowerCase())}">
-              <a href="/product.html?sku=${encodeURIComponent(p.sku)}" class="product-card__image-box" aria-label="${escapeAttr(p.name)}">
+              <a href="product.html?sku=${encodeURIComponent(p.sku)}" class="product-card__image-box" aria-label="${escapeAttr(p.name)}">
                 <img src="${p.image}" alt="${escapeAttr(p.name)}" class="product-card__image" loading="lazy">
               </a>
               <div class="product-card__body">
                 <span class="product-card__category">${p.categoryName} • ${p.brand}</span>
                 <h3 class="product-card__title">
-                  <a href="/product.html?sku=${encodeURIComponent(p.sku)}">${title}</a>
+                  <a href="product.html?sku=${encodeURIComponent(p.sku)}">${title}</a>
                 </h3>
                 <p class="product-card__specs-short">${p.specsShort}</p>
                 <div class="product-card__footer">
@@ -32,7 +32,7 @@ const productCardsHtml = prods.map(p => {
                     <span class="product-card__price">${p.price.toLocaleString('ru-RU')} ₽</span>
                     <span class="product-card__price-sub">Прокат: от ${p.rentPrice} ₽/сут</span>
                   </div>
-                  <a href="/product.html?sku=${encodeURIComponent(p.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
+                  <a href="product.html?sku=${encodeURIComponent(p.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
                 </div>
               </div>
             </article>`;
@@ -47,7 +47,7 @@ const mainContentHtml = `  <main>
     <section class="page-header">
       <div class="container">
         <div class="breadcrumbs">
-          <a href="/">Главная</a>
+          <a href="index.html">Главная</a>
           <span class="breadcrumbs__separator">/</span>
           <span>Каталог</span>
         </div>

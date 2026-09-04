@@ -163,11 +163,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const breadcrumbs = document.querySelector('.breadcrumbs');
     if (breadcrumbs) {
       breadcrumbs.innerHTML = `
-        <a href="/">Главная</a>
+        <a href="index.html">Главная</a>
         <span class="breadcrumbs__separator">/</span>
-        <a href="/catalog.html">Каталог</a>
+        <a href="catalog.html">Каталог</a>
         <span class="breadcrumbs__separator">/</span>
-        <a href="/catalog.html#${current.categoryFilter}">${current.subCategory}</a>
+        <a href="catalog.html#${current.categoryFilter}">${current.subCategory}</a>
         <span class="breadcrumbs__separator">/</span>
         <span>${current.shortName || current.name}</span>
       `;
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="product-card__body">
             <span class="product-card__category">${p.categoryName} • ${p.brand}</span>
             <h3 class="product-card__title">
-              <a href="/product.html?sku=${encodeURIComponent(p.sku)}">${p.shortName || p.name}</a>
+              <a href="product.html?sku=${encodeURIComponent(p.sku)}">${p.shortName || p.name}</a>
             </h3>
             <p class="product-card__specs-short">${p.specsShort}</p>
             <div class="product-card__footer">
@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span class="product-card__price">${p.price.toLocaleString('ru-RU')} ₽</span>
                 <span class="product-card__price-sub">Прокат: от ${p.rentPrice} ₽/сут</span>
               </div>
-              <a href="/product.html?sku=${encodeURIComponent(p.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
+              <a href="product.html?sku=${encodeURIComponent(p.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
             </div>
           </div>
         </article>
