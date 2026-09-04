@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="110" fill="#F8FAFC"/>
+  <!-- Heat Cannon Gun -->
+  <g transform="translate(80, 70)">
+    <!-- Barrel Cylinder -->
+    <path d="M40 50 L200 50 C215 50 225 65 225 80 C225 95 215 110 200 110 L40 110 Z" fill="#C12936"/>
+    <!-- Nozzle -->
+    <path d="M220 55 L240 58 L240 102 L220 105 Z" fill="#1E293B"/>
+    <!-- Fuel Tank base -->
+    <rect x="50" y="120" width="140" height="35" rx="8" fill="#0F172A"/>
+    <!-- Wheels & stand -->
+    <line x1="60" y1="110" x2="60" y2="160" stroke="#334155" stroke-width="6"/>
+    <line x1="180" y1="110" x2="180" y2="160" stroke="#334155" stroke-width="6"/>
+    <circle cx="60" cy="160" r="14" fill="#C12936" stroke="#0F172A" stroke-width="3"/>
+    <circle cx="180" cy="160" r="14" fill="#C12936" stroke="#0F172A" stroke-width="3"/>
+    <!-- Handle -->
+    <path d="M60 50 C60 30 180 30 180 50" fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="110" fill="#F8FAFC"/>
+  <!-- Garden Trimmer / Brushcutter -->
+  <g transform="translate(60, 40)">
+    <!-- Engine top -->
+    <path d="M220 20 L270 20 L260 70 L210 70 Z" fill="#C12936"/>
+    <rect x="235" y="5" width="20" height="15" rx="3" fill="#0F172A"/>
+    <!-- Long Shaft -->
+    <line x1="235" y1="65" x2="60" y2="215" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+    <!-- D/U Handle -->
+    <path d="M180 100 L210 80 M185 110 L155 130" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Guard -->
+    <path d="M50 200 C40 215 45 235 70 235 L85 220 Z" fill="#C12936"/>
+    <!-- Cutting Head -->
+    <circle cx="55" cy="225" r="14" fill="#0F172A"/>
+    <line x1="30" y1="225" x2="80" y2="225" stroke="#F59E0B" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="110" fill="#F8FAFC"/>
+  <!-- High Pressure Washer -->
+  <g transform="translate(110, 40)">
+    <!-- Vertical Body -->
+    <rect x="50" y="70" width="80" height="120" rx="14" fill="#C12936"/>
+    <rect x="60" y="90" width="60" height="50" rx="6" fill="#0F172A"/>
+    <!-- Top Carry Handle -->
+    <path d="M70 70 L70 30 L110 30 L110 70" fill="none" stroke="#0F172A" stroke-width="8" stroke-linejoin="round"/>
+    <!-- Hose Reel Top -->
+    <circle cx="90" cy="50" r="12" fill="#334155"/>
+    <!-- Big Wheels -->
+    <circle cx="45" cy="185" r="20" fill="#1E293B" stroke="#0F172A" stroke-width="4"/>
+    <circle cx="135" cy="185" r="20" fill="#1E293B" stroke="#0F172A" stroke-width="4"/>
+    <!-- Spray Gun Lance -->
+    <path d="M140 100 L170 100 L170 150 L178 150 L178 90 L185 85 L200 85" fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="110" fill="#F8FAFC"/>
+  <!-- Cordless Screwdriver / Drill -->
+  <g transform="translate(100, 50)">
+    <!-- Chuck & Bit -->
+    <rect x="150" y="55" width="25" height="30" rx="3" fill="#1E293B"/>
+    <rect x="175" y="65" width="25" height="10" fill="#64748B"/>
+    <polygon points="200,66 215,70 200,74" fill="#475569"/>
+    <!-- Torque ring -->
+    <rect x="135" y="50" width="15" height="40" rx="2" fill="#C12936"/>
+    <!-- Motor Housing -->
+    <path d="M40 45 L135 45 L135 95 L40 95 Z" rx="6" fill="#1E293B"/>
+    <path d="M45 50 L100 50 L100 90 L45 90 Z" fill="#C12936"/>
+    <!-- Handle -->
+    <path d="M70 95 L60 170 L105 175 L115 95 Z" fill="#1E293B"/>
+    <path d="M72 110 C85 110 95 118 95 130 C95 145 80 155 70 160" fill="none" stroke="#C12936" stroke-width="4"/>
+    <!-- Red Trigger -->
+    <path d="M115 105 L125 108 L125 120 L115 122 Z" fill="#C12936"/>
+    <!-- Lithium Battery Pack -->
+    <rect x="40" y="170" width="90" height="35" rx="6" fill="#0F172A"/>
+    <rect x="45" y="175" width="80" height="6" fill="#C12936"/>
+  </g>
+</svg>

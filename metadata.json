@@ -1,0 +1,6 @@
+{
+  "name": "Инструмент на Жукова — Продажа, прокат и сервис инструмента",
+  "description": "Официальный сайт компании по продаже, прокату и сервисному обслуживанию строительного и садового инструмента.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

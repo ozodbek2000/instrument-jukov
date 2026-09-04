@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <defs>
+    <linearGradient id="news3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="10" fill="url(#news3Grad)"/>
+  <g transform="translate(140, 50)">
+    <!-- Garden trimmer and chainsaw -->
+    <path d="M160 30 L195 30 L185 70 L150 70 Z" fill="#C12936"/>
+    <line x1="170" y1="65" x2="40" y2="180" stroke="#64748B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M30 170 C20 185 25 195 45 195 L60 180 Z" fill="#C12936"/>
+    <circle cx="35" cy="190" r="10" fill="#0F172A"/>
+    <!-- Leaf indicator -->
+    <path d="M180 120 C180 90 210 90 210 120 C210 150 180 150 180 120 Z" fill="#22C55E" opacity="0.8"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="500" height="280">
+  <defs>
+    <linearGradient id="promo1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="280" rx="12" fill="url(#promo1Grad)"/>
+  <!-- Discount badge circle -->
+  <circle cx="390" cy="140" r="90" fill="#C12936" opacity="0.9"/>
+  <text x="390" y="130" font-family="'Montserrat', sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">-20%</text>
+  <text x="390" y="160" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">НА ПРОКАТ</text>
+  <text x="390" y="180" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#FECACA" text-anchor="middle">ОТ 3-Х СУТОК</text>
+  
+  <!-- Line Art Tools -->
+  <g stroke="#E2E8F0" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(40, 50)">
+    <rect x="20" y="40" width="100" height="60" rx="6"/>
+    <path d="M40 40 L40 20 L80 20 L80 40"/>
+    <line x1="120" y1="70" x2="170" y2="70"/>
+    <circle cx="50" cy="120" r="16"/>
+    <circle cx="110" cy="120" r="16"/>
+    <line x1="66" y1="120" x2="94" y2="120"/>
+  </g>
+</svg>

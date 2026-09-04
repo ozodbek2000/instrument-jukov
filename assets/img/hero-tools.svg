@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" width="1200" height="650">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="60%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#2D1115"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <!-- Background with subtle blueprint grid and lighting -->
+  <rect width="1200" height="650" fill="url(#heroGrad)"/>
+  <rect width="1200" height="650" fill="url(#grid)"/>
+  
+  <!-- Subtle ambient red glow -->
+  <circle cx="950" cy="300" r="300" fill="#C12936" opacity="0.18" filter="blur(60px)"/>
+  <circle cx="200" cy="150" r="250" fill="#C12936" opacity="0.08" filter="blur(80px)"/>
+
+  <!-- Technical Schematic Lines in background -->
+  <g stroke="#64748B" stroke-width="1.5" opacity="0.25" stroke-dasharray="6 4">
+    <circle cx="850" cy="320" r="180" fill="none"/>
+    <circle cx="850" cy="320" r="220" fill="none"/>
+    <line x1="600" y1="320" x2="1100" y2="320"/>
+    <line x1="850" y1="70" x2="850" y2="570"/>
+  </g>
+
+  <!-- High-end Illustrated Composition on Right -->
+  <g transform="translate(680, 140)">
+    <!-- Plate base -->
+    <ellipse cx="200" cy="360" rx="220" ry="25" fill="#090D16" opacity="0.6"/>
+    
+    <!-- Rotary Hammer -->
+    <g transform="translate(60, 40) rotate(-12)">
+      <path d="M40 70 L210 70 L215 125 L165 135 L40 130 Z" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <path d="M60 75 L180 75 L185 110 L60 110 Z" fill="#C12936"/>
+      <path d="M215 85 L260 85 L260 105 L215 105 Z" fill="#475569"/>
+      <path d="M260 92 L330 92" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+      <path d="M40 75 C10 75 0 90 0 120 C0 160 15 175 40 175 L55 175 L55 145 L35 145 C25 145 20 140 20 125 C20 105 28 95 40 95 Z" fill="#0F172A"/>
+    </g>
+
+    <!-- Professional Chainsaw Silhouette in Red & Charcoal -->
+    <g transform="translate(180, 150) rotate(8)">
+      <path d="M120 70 L260 70 C280 70 280 95 260 95 L120 95 Z" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+      <path d="M20 55 L120 55 L120 115 L20 115 Z" rx="10" fill="#C12936"/>
+      <circle cx="70" cy="85" r="18" fill="#0F172A"/>
+      <path d="M45 55 C45 25 100 25 100 55" fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- Cordless Drill -->
+    <g transform="translate(-10, 160) rotate(15)">
+      <rect x="110" y="45" width="20" height="25" rx="2" fill="#334155"/>
+      <path d="M30 35 L110 35 L110 75 L30 75 Z" rx="6" fill="#C12936"/>
+      <path d="M50 75 L42 140 L78 145 L85 75 Z" fill="#0F172A"/>
+      <rect x="25" y="140" width="70" height="25" rx="5" fill="#1E293B"/>
+    </g>
+  </g>
+</svg>

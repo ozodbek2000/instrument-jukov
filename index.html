@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Инструмент на Жукова — Продажа, прокат и сервис инструмента</title>
+  <meta name="description" content="Продажа, аренда и профессиональный ремонт строительного и садового инструмента в Омске. Магазин, сервисный центр, прокат с гарантией качества.">
+  <meta property="og:title" content="Инструмент на Жукова — Продажа, прокат и сервис инструмента">
+  <meta property="og:description" content="Продажа, аренда и профессиональный ремонт строительного и садового инструмента в Омске.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Montserrat & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <!-- 1. ШАПКА САЙТА (HEADER) -->
+  <header class="header" id="header">
+    <!-- Верхняя информационная полоса -->
+    <div class="header__top">
+      <div class="container header__top-container">
+        <div class="header__top-info">
+          <div class="header__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>г. Омск, ул. М. Жукова, 6 / ул. Сажинская, 39</span>
+          </div>
+          <div class="header__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>Пн-Пт: 8:30 – 19:00, Сб: 9:00 – 17:00</span>
+          </div>
+        </div>
+        <div class="header__top-actions">
+          <div class="header__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:580780@list.ru">580780@list.ru</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Основная линия шапки -->
+    <div class="header__main">
+      <div class="container header__main-container">
+        <!-- Логотип -->
+        <a href="/" class="logo" id="headerLogo" title="Инструмент на Жукова">
+          <img src="/assets/img/logo.png" alt="Инструмент на Жукова — Магазин, Сервис, Прокат" width="240" height="50">
+        </a>
+
+        <!-- Навигация (якорное меню для главной страницы) -->
+        <nav class="nav" id="mainNav">
+          <ul class="nav__list">
+            <li><a href="#hero" class="nav__link active">Главная</a></li>
+            <li><a href="/catalog.html" class="nav__link">Каталог</a></li>
+            <li><a href="#about" class="nav__link">О компании</a></li>
+            <li><a href="#services" class="nav__link">Услуги</a></li>
+            <li><a href="#popular" class="nav__link">Товары</a></li>
+            <li><a href="#promos" class="nav__link">Акции</a></li>
+            <li><a href="#news" class="nav__link">Новости</a></li>
+            <li><a href="#contacts" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <!-- Телефон и кнопка заявки -->
+        <div class="header__cta">
+          <div class="header__phone">
+            <a href="tel:+73812580780" class="header__phone-number" title="Позвонить в магазин и сервис">
+              <svg class="header__phone-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>(3812) 580-780</span>
+            </a>
+            <a href="tel:+79131570610" class="header__phone-label" title="Позвонить на сотовый / WhatsApp">+7 913 157-06-10</a>
+          </div>
+          <a href="#feedback" class="btn btn-primary btn-sm" id="headerRequestBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            Оставить заявку
+          </a>
+          <!-- Кнопка мобильного меню -->
+          <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Мобильное выпадающее меню -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu__list">
+      <li><a href="#hero" class="mobile-menu__link">Главная</a></li>
+      <li><a href="/catalog.html" class="mobile-menu__link">Каталог товаров</a></li>
+      <li><a href="#about" class="mobile-menu__link">О компании</a></li>
+      <li><a href="#services" class="mobile-menu__link">Наши услуги</a></li>
+      <li><a href="#popular" class="mobile-menu__link">Популярные товары</a></li>
+      <li><a href="#promos" class="mobile-menu__link">Акции</a></li>
+      <li><a href="#news" class="mobile-menu__link">Новости</a></li>
+      <li><a href="#reviews" class="mobile-menu__link">Отзывы</a></li>
+      <li><a href="#contacts" class="mobile-menu__link">Контакты</a></li>
+    </ul>
+    <div class="mobile-menu__footer">
+      <a href="tel:+73812580780" class="header__phone-number" style="font-size: 1.25rem; display: inline-flex; align-items: center; justify-content: flex-start; gap: 8px;">
+        <svg class="header__phone-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        <span>(3812) 580-780</span>
+      </a>
+      <a href="tel:+79131570610" class="header__phone-label" style="font-size: 1rem; display: inline-flex; justify-content: flex-start; margin: 2px 0 14px; font-weight: 700; color: var(--color-primary);">+7 913 157-06-10</a>
+      <a href="#feedback" class="btn btn-primary btn-block">Оставить заявку</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- 2. HERO СЕКЦИЯ -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <div class="hero__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span>Более 25 лет надежной работы в Омске</span>
+          </div>
+          <h1 class="hero__title">
+            Продажа, прокат и сервис <span>строительного и садового</span> инструмента
+          </h1>
+          <p class="hero__subtitle">
+            Профессиональное оборудование ведущих брендов. Официальная гарантия, собственный авторизованный сервисный центр и выгодные условия аренды от 1 суток.
+          </p>
+          <div class="hero__actions">
+            <a href="#feedback" class="btn btn-primary btn-lg" id="heroActionBtn">
+              Оставить заявку
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="/catalog.html" class="btn btn-white btn-lg" id="heroCatalogBtn">
+              Перейти в каталог
+            </a>
+          </div>
+
+          <div class="hero__features">
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div class="hero__feature-text">Свой сертифицированный сервис</div>
+            </div>
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                  <line x1="1" y1="10" x2="23" y2="10"></line>
+                </svg>
+              </div>
+              <div class="hero__feature-text">Аренда без скрытых залогов</div>
+            </div>
+            <div class="hero__feature-item">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="hero__feature-text">Гарантия на все товары и работы</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. «О КОМПАНИИ» -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__image-box">
+            <img src="/assets/img/About-us/o nas (1).png" alt="О компании — Инструмент на Жукова" width="560" height="420" loading="lazy">
+          </div>
+          <div class="about__text">
+            <span class="section__tag">О компании</span>
+            <h2 class="section__title" style="text-align: left; margin-bottom: 20px;">
+              Экспертный подход к инструменту и оборудованию
+            </h2>
+            <p>
+              Компания <strong>«Инструмент на Жукова»</strong> (ООО «ТОФ Партнер») уже более четверти века обеспечивает профессионалов и частных мастеров надежным строительным, монтажным и садово-парковым инструментом.
+            </p>
+            <p>
+              Мы объединяем три ключевых направления: специализированный магазин оригинального инструмента, современный пункт проката оборудования и авторизованный сервисный центр по диагностике, обслуживанию и капитальному ремонту техники любой сложности.
+            </p>
+            <div class="about__stats-grid">
+              <div class="stat-item">
+                <div class="stat-item__number">3 500+</div>
+                <div class="stat-item__label">Наименований инструмента</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-item__number">18 000+</div>
+                <div class="stat-item__label">Отремонтированных единиц</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-item__number">98%</div>
+                <div class="stat-item__label">Довольных клиентов</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. «ПРЕИМУЩЕСТВА КОМПАНИИ» -->
+    <section class="section section--gray" id="advantages">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Наши преимущества</span>
+          <h2 class="section__title">Почему нам доверяют мастера и организации</h2>
+          <p class="section__subtitle">
+            Мы выстраиваем долгосрочное партнерство, гарантируя качество оборудования, прозрачные цены и оперативное обслуживание.
+          </p>
+        </div>
+
+        <div class="advantages__grid">
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="advantage-card__title">Оригинальная продукция</h3>
+            <p class="advantage-card__text">Только сертифицированный инструмент от проверенных мировых и отечественных производителей с гарантией.</p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </div>
+            <h3 class="advantage-card__title">Авторизованный сервис</h3>
+            <p class="advantage-card__text">Собственные мастера высшей квалификации, оригинальные запчасти и профессиональные стенды диагностики.</p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="advantage-card__title">Гибкий прокат</h3>
+            <p class="advantage-card__text">Аренда оборудования от 1 суток. Весь прокатный парк проходит полное ТО перед каждой выдачей.</p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="advantage-card__title">Работа с юрлицами</h3>
+            <p class="advantage-card__text">Полный пакет закрывающих документов, работа с НДС, персональные условия для постоянных подрядчиков.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. «НАШИ УСЛУГИ» -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Направления деятельности</span>
+          <h2 class="section__title">Комплексные решения для стройки и дома</h2>
+          <p class="section__subtitle">
+            Три основных направления работы компании, закрывающие все потребности мастеров и строительных бригад.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <!-- Услуга 1: Продажа товаров -->
+          <div class="service-card" id="serviceSale">
+            <div>
+              <div class="service-card__icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+              </div>
+              <h3 class="service-card__title">Продажа инструмента</h3>
+              <p class="service-card__desc">
+                Широкий ассортимент электроинструмента, бензотехники, садово-паркового оборудования, пневматики, расходных материалов и комплектующих.
+              </p>
+            </div>
+            <a href="/catalog.html" class="service-card__link">
+              Смотреть каталог
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Услуга 2: Прокат -->
+          <div class="service-card" id="serviceRent">
+            <div>
+              <div class="service-card__icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+              </div>
+              <h3 class="service-card__title">Прокат оборудования</h3>
+              <p class="service-card__desc">
+                Аренда строительного оборудования: виброплиты, бетономешалки, перфораторы SDS-Max, тепловые пушки, генераторы, триммеры и вышки-туры от 1 суток.
+              </p>
+            </div>
+            <a href="#feedback" class="service-card__link">
+              Забронировать технику
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Услуга 3: Сервисный центр -->
+          <div class="service-card" id="serviceRepair">
+            <div>
+              <div class="service-card__icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card__title">Сервисный центр</h3>
+              <p class="service-card__desc">
+                Профессиональный ремонт и регламентное ТО электро- и бензоинструмента. Замена щеток, перемотка якорей, чистка карбюраторов, заточка цепей и дисков.
+              </p>
+            </div>
+            <a href="#feedback" class="service-card__link">
+              Записаться на ремонт
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. «ПОПУЛЯРНЫЕ ТОВАРЫ / НАПРАВЛЕНИЯ» -->
+    <section class="section section--gray" id="popular">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Каталог</span>
+          <h2 class="section__title">Популярные товары и оборудование</h2>
+          <p class="section__subtitle">
+            Востребованные позиции для покупки и аренды. Все товары доступны с гарантией и сервисным сопровождением.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KDJZ23-10.png" alt="Дрель-шуруповерт аккумуляторная бесщеточная DCK KDJZ23-10, 10,8В" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KDJZ23-10(TYPE%20EK)">Дрель-шуруповерт DCK KDJZ23-10, 10.8В</a>
+              </h3>
+              <p class="product-card__specs-short">Крутящий момент: 35 Н·м • 2 АКБ по 2.0 А·ч • Патрон: 10 мм</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">9 990 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 600 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KDJZ23-10(TYPE%20EK)" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KRH1200-30.png" alt="Перфоратор сетевой SDS-Plus бочковой DCK KRH1200-30, 1200Вт" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KRH1200-30">Перфоратор бочковой DCK KRH1200-30, 3.7Дж</a>
+              </h3>
+              <p class="product-card__specs-short">Мощность: 1200 Вт • Удар: 3.7 Дж • Система виброзащиты DVR • Бур до 30 мм</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">38 990 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 1200 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KRH1200-30" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KDSM04-125.png" alt="Машина шлифовальная угловая бесщеточная DCK KDSM04-125, 18В" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KDSM04-125(TYPE%20FK)">УШМ (болгарка) DCK KDSM04-125, 9000 об/мин</a>
+              </h3>
+              <p class="product-card__specs-short">Диск: 125 мм • 9000 об/мин • Регулировка скорости • 2 АКБ 5.0 А·ч</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">26 990 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 1200 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KDSM04-125(TYPE%20FK)" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KDPB358.png" alt="Гайковерт ударный аккумуляторный DCK KDPB358, 18В, 1/2&quot;" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KDPB358(TYPE%20FK)">Гайковерт ударный DCK KDPB358, 358Нм</a>
+              </h3>
+              <p class="product-card__specs-short">Крутящий момент: 358/500 Н·м • Квадрат: 1/2" • 2 АКБ 5.0 А·ч</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">21 990 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 1000 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KDPB358(TYPE%20FK)" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KMY04-185.png" alt="Пила дисковая сетевая DCK KMY04-185, 1100Вт, 185мм" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KMY04-185">Дисковая пила DCK KMY04-185, 1100Вт</a>
+              </h3>
+              <p class="product-card__specs-short">Мощность: 1100 Вт • Диск: 185 мм • Глубина: 68 мм • 6000 об/мин</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">9 990 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 600 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KMY04-185" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KDCS20061.png" alt="Пила цепная мини аккумуляторная DCK KDCS20061, 18В (без АКБ и ЗУ)" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Садовая техника • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KDCS20061(TYPE%20Z)">Мини цепная пила DCK KDCS20061</a>
+              </h3>
+              <p class="product-card__specs-short">Шина: 150 мм • Скорость цепи: 8 м/с • Мощность: 750 Вт • Вес 2.6 кг</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">8 990 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 600 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KDCS20061(TYPE%20Z)" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KMR8.png" alt="Фрезер электрический погружной DCK KMR8, 900Вт, цанга 8мм" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KMR8">Фрезер погружной DCK KMR8, 900Вт</a>
+              </h3>
+              <p class="product-card__specs-short">Мощность: 900 Вт • Цанга: 8 мм • 26 000 об/мин • Ход базы: 30 мм</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">9 290 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 600 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KMR8" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-box">
+              <img src="/assets/img/products/dck/KQB04-2000.png" alt="Фен технический строительный DCK KQB04-2000, 2000Вт, 3 режима" class="product-card__image" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__category">Электроинструмент • DCK</span>
+              <h3 class="product-card__title">
+                <a href="/product.html?sku=KQB04-2000">Технический фен DCK KQB04-2000, 2000Вт</a>
+              </h3>
+              <p class="product-card__specs-short">Мощность: 2000 Вт • Температура: 50–600 °C • Поток: до 380 л/мин</p>
+              <div class="product-card__footer">
+                <div class="product-card__price-box">
+                  <span class="product-card__price">4 890 ₽</span>
+                  <span class="product-card__price-sub">Прокат: от 350 ₽/сут</span>
+                </div>
+                <a href="/product.html?sku=KQB04-2000" class="btn btn-outline btn-sm">Подробнее</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="products-action-center">
+          <a href="/catalog.html" class="btn btn-primary btn-lg" id="viewAllProductsBtn">
+            Посмотреть весь каталог инструментов DCK (45 моделей)
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. «ЭТАПЫ СОТРУДНИЧЕСТВА» -->
+    <section class="section" id="steps">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Порядок работы</span>
+          <h2 class="section__title">Как мы работаем</h2>
+          <p class="section__subtitle">
+            Простой и понятный процесс от первого звонка до получения исправного инструмента.
+          </p>
+        </div>
+
+        <div class="steps__timeline">
+          <div class="step-card">
+            <div class="step-card__number">01</div>
+            <h3 class="step-card__title">Заявка или звонок</h3>
+            <p class="step-card__desc">Вы оставляете заявку на сайте или звоните нам. Уточняем задачу: покупка, аренда или ремонт инструмента.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">02</div>
+            <h3 class="step-card__title">Консультация и подбор</h3>
+            <p class="step-card__desc">Специалист подбирает оборудование под конкретные работы либо принимает технику на экспресс-диагностику.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">03</div>
+            <h3 class="step-card__title">Оформление договора</h3>
+            <p class="step-card__desc">Быстрое заключение договора аренды или сервиса с фиксированной сметой и гарантийными обязательствами.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">04</div>
+            <h3 class="step-card__title">Выдача и сопровождение</h3>
+            <p class="step-card__desc">Инструктаж по технике безопасности, демонстрация работоспособности и постоянная техподдержка мастеров.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. «АКЦИИ» -->
+    <section class="section section--gray" id="promos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Выгодные предложения</span>
+          <h2 class="section__title">Специальные акции</h2>
+          <p class="section__subtitle">
+            Актуальные скидки на прокат оборудования и сервисное обслуживание.
+          </p>
+        </div>
+
+        <div class="promos__grid">
+          <!-- Акция 1 -->
+          <article class="promo-card">
+            <div class="promo-card__image-box">
+              <img src="/assets/img/акции/news1.jpg" alt="Скидка 20% на аренду инструмента" class="promo-card__image" loading="lazy">
+            </div>
+            <div class="promo-card__body">
+              <div class="promo-card__date">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>Действует до 30 сентября 2026</span>
+              </div>
+              <h3 class="promo-card__title">Скидка 20% на прокат оборудования от 3 суток</h3>
+              <p class="promo-card__desc">
+                Арендуйте виброплиты, отбойные молотки или бетономешалки на срок от 3 дней и экономьте пятую часть стоимости аренды.
+              </p>
+              <a href="#feedback" class="btn btn-outline btn-sm" style="align-self: flex-start;">Участвовать в акции</a>
+            </div>
+          </article>
+
+          <!-- Акция 2 -->
+          <article class="promo-card">
+            <div class="promo-card__image-box">
+              <img src="/assets/img/акции/news2.jpg" alt="Бесплатная диагностика инструмента" class="promo-card__image" loading="lazy">
+            </div>
+            <div class="promo-card__body">
+              <div class="promo-card__date">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>Постоянная акция</span>
+              </div>
+              <h3 class="promo-card__title">Бесплатная диагностика при выполнении ремонта</h3>
+              <p class="promo-card__desc">
+                При заказе ремонта любого инструмента в нашем сервисном центре диагностика неисправностей проводится абсолютно бесплатно.
+              </p>
+              <a href="#feedback" class="btn btn-outline btn-sm" style="align-self: flex-start;">Сдать в ремонт</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. «НОВОСТИ» -->
+    <section class="section" id="news">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">События и статьи</span>
+          <h2 class="section__title">Новости компании</h2>
+          <p class="section__subtitle">
+            Поступления нового оборудования, советы по выбору инструмента и новости сервиса.
+          </p>
+        </div>
+
+        <div class="news__grid">
+          <article class="news-card">
+            <div class="news-card__image-box">
+              <img src="/assets/img/Новости/247e6baf-b07a-4373-9781-dac75a9634cc_6a182c65a1ab3.jpeg" alt="Новая линейка аккумуляторного инструмента" class="news-card__image" loading="lazy">
+            </div>
+            <div class="news-card__body">
+              <span class="news-card__date">24 августа 2026</span>
+              <h3 class="news-card__title">Поступление новой серии бесщеточного инструмента 18V Li-Ion</h3>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__image-box">
+              <img src="/assets/img/Новости/33aeafc6-4b65-4885-9446-faaaa9f4b83d_6a32471139f11 (1).jpeg" alt="Расширение парка строительного оборудования" class="news-card__image" loading="lazy">
+            </div>
+            <div class="news-card__body">
+              <span class="news-card__date">15 августа 2026</span>
+              <h3 class="news-card__title">Расширили парк тяжелого оборудования для аренды: виброплиты и генераторы</h3>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__image-box">
+              <img src="/assets/img/Новости/F19026_1.jpg" alt="Подготовка садовой техники к сезону" class="news-card__image" loading="lazy">
+            </div>
+            <div class="news-card__body">
+              <span class="news-card__date">02 августа 2026</span>
+              <h3 class="news-card__title">Рекомендации мастеров: как подготовить бензопилы и триммеры к работе</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. «ОТЗЫВЫ КЛИЕНТОВ» -->
+    <section class="section section--gray" id="reviews">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Репутация</span>
+          <h2 class="section__title">Отзывы наших клиентов</h2>
+          <p class="section__subtitle">
+            Мнения строительных компаний, бригадиров и частных мастеров Омска.
+          </p>
+        </div>
+
+        <div class="reviews-slider-container">
+          <div class="reviews-grid">
+            <div class="review-card">
+              <div class="review-card__header">
+                <div>
+                  <div class="review-card__author">Алексей Смирнов</div>
+                  <div class="review-card__service-tag">Бригадир отделочников</div>
+                </div>
+              </div>
+              <div class="review-card__stars">
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <p class="review-card__text">
+                «Регулярно берем в прокат тяжелые перфораторы и тепловые пушки. Инструмент всегда ухоженный, чистый и полностью исправный. Оформление за 5 минут, без лишних проволочек.»
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-card__header">
+                <div>
+                  <div class="review-card__author">Михаил Ковалев</div>
+                  <div class="review-card__service-tag">ООО «СибСтройМонтаж»</div>
+                </div>
+              </div>
+              <div class="review-card__stars">
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <p class="review-card__text">
+                «Отдавали в сервисный центр партию перфораторов и болгарок после тяжелого объекта. Сделали диагностику за день, заменили щетки и редукторы. Цены прозрачные, работаем по безналу.»
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-card__header">
+                <div>
+                  <div class="review-card__author">Сергей Николаевич</div>
+                  <div class="review-card__service-tag">Частный клиент</div>
+                </div>
+              </div>
+              <div class="review-card__stars">
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <p class="review-card__text">
+                «Покупал бензопилу и брал на выходные культиватор для дачи. Грамотные продавцы всё объяснили, заправили, показали как заводить. Очень доволен отношением к покупателю!»
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. БЛОК С ФОРМОЙ ОБРАТНОЙ СВЯЗИ -->
+    <section class="feedback-section" id="feedback">
+      <div class="container">
+        <div class="feedback-grid">
+          <div class="feedback-content">
+            <h2 class="feedback-content__title">Нужна консультация по инструменту?</h2>
+            <p class="feedback-content__text">
+              Оставьте заявку, и наш специалист свяжется с вами в течение 10 минут, чтобы ответить на все вопросы, подобрать технику или забронировать оборудование.
+            </p>
+            <div class="feedback-points">
+              <div class="feedback-point">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Бесплатный расчет сметы и подбор инструмента</span>
+              </div>
+              <div class="feedback-point">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Бронирование техники в прокате без предоплаты</span>
+              </div>
+              <div class="feedback-point">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Срочная запись в сервисный центр</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <h3 class="form-box__title">Оставить заявку</h3>
+            <p class="form-box__subtitle">Заполните поля ниже, и мы перезвоним вам</p>
+
+            <form id="mainFeedbackForm" action="#" method="POST">
+              <div class="form-group">
+                <label for="feedbackName" class="form-label">Ваше имя *</label>
+                <input type="text" id="feedbackName" name="name" class="form-control" placeholder="Иван Петров" required>
+              </div>
+
+              <div class="form-group">
+                <label for="feedbackPhone" class="form-label">Телефон *</label>
+                <input type="tel" id="feedbackPhone" name="phone" class="form-control" placeholder="+7 (___) ___-__-__" required>
+              </div>
+
+              <div class="form-group">
+                <label for="feedbackComment" class="form-label">Комментарий или вопрос</label>
+                <textarea id="feedbackComment" name="comment" class="form-control" rows="3" placeholder="Какой инструмент вас интересует?"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitFeedbackBtn">
+                Отправить заявку
+              </button>
+
+              <p class="form-agreement">
+                Нажимая на кнопку, вы соглашаетесь на обработку персональных данных в соответствии с <a href="#privacy">политикой конфиденциальности</a>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. КОНТАКТНАЯ ИНФОРМАЦИЯ -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Где нас найти</span>
+          <h2 class="section__title">Контакты и адреса</h2>
+          <p class="section__subtitle">
+            Ждем вас в наших магазинах и сервисном центре в Омске.
+          </p>
+        </div>
+
+        <div class="contacts-grid">
+          <!-- Контактная карточка 1 -->
+          <div class="contact-card">
+            <div class="contact-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div>
+              <h3 class="contact-card__title">Основной магазин и сервис</h3>
+              <p class="contact-card__info">г. Омск, ул. М. Жукова, 6</p>
+              <p class="contact-card__highlight">т. <a href="tel:+73812580780" style="color:inherit; text-decoration:none;">(3812) 580-780</a>, <a href="tel:+79131570610" style="color:inherit; text-decoration:none;">+7 913 157-06-10</a></p>
+              <p class="contact-card__info" style="margin-top: 6px;">Режим: Пн-Пт 8:30–19:00, Сб 9:00–17:00, Вс 10:00–15:00</p>
+            </div>
+          </div>
+
+          <!-- Контактная карточка 2 -->
+          <div class="contact-card">
+            <div class="contact-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="contact-card__title">Электронная почта и отдел продаж</h3>
+              <p class="contact-card__info">г. Омск, ул. М. Жукова, 6</p>
+              <p class="contact-card__highlight">т. <a href="tel:+79131570610" style="color:inherit; text-decoration:none;">+7 913 157-06-10</a></p>
+              <p class="contact-card__info" style="margin-top: 6px;">Email: <a href="mailto:580780@list.ru" style="color: var(--color-primary); font-weight: 600;">580780@list.ru</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13. ИНТЕРАКТИВНАЯ КАРТА -->
+        <div class="map-box" id="map">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d252.30932238850417!2d73.38678557125365!3d54.980450038196565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTTCsDU4JzQ5LjYiTiA3M8KwMjMnMTMuMyJF!5e0!3m2!1sru!2s!4v1788503830363!5m2!1sru!2s" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="Интерактивная карта — магазин «Инструмент на Жукова» в Омске">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 14. FOOTER (ПОДВАЛ) -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Колонка 1: О бренде -->
+        <div>
+          <a href="/" class="logo" title="Инструмент на Жукова">
+            <img src="/assets/img/logo.png" alt="Инструмент на Жукова" width="220" height="46" style="border-radius: 6px;">
+          </a>
+          <p class="footer__brand-text">
+            ООО «ТОФ ПАРТНЕР» — надежный поставщик строительного и садового оборудования в Омске с 1998 года. Магазин, сервисный центр, прокат.
+          </p>
+          <div class="social-links">
+            <a href="https://wa.me/79131570610" class="social-link" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+            </a>
+            <a href="https://t.me/placeholder" class="social-link" title="Telegram" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </a>
+            <a href="mailto:580780@list.ru" class="social-link" title="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Колонка 2: Навигация -->
+        <div>
+          <h4 class="footer__col-title">Навигация</h4>
+          <div class="footer__links">
+            <a href="#hero" class="footer__link">Главная</a>
+            <a href="/catalog.html" class="footer__link">Каталог товаров</a>
+            <a href="#about" class="footer__link">О компании</a>
+            <a href="#services" class="footer__link">Наши услуги</a>
+            <a href="#popular" class="footer__link">Популярные позиции</a>
+            <a href="#promos" class="footer__link">Акции</a>
+            <a href="#news" class="footer__link">Новости</a>
+            <a href="#contacts" class="footer__link">Контакты</a>
+          </div>
+        </div>
+
+        <!-- Колонка 3: Услуги -->
+        <div>
+          <h4 class="footer__col-title">Услуги</h4>
+          <div class="footer__links">
+            <a href="#services" class="footer__link">Продажа инструмента</a>
+            <a href="#services" class="footer__link">Прокат строительной техники</a>
+            <a href="#services" class="footer__link">Ремонт электроинструмента</a>
+            <a href="#services" class="footer__link">Обслуживание бензотехники</a>
+            <a href="#services" class="footer__link">Заточка цепей и оснастки</a>
+            <a href="#feedback" class="footer__link">Оставить заявку</a>
+          </div>
+        </div>
+
+        <!-- Колонка 4: Контакты -->
+        <div>
+          <h4 class="footer__col-title">Контакты</h4>
+          <div class="footer__contacts-list">
+            <div class="footer__contacts-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>г. Омск, ул. М. Жукова, 6</span>
+            </div>
+            <div class="footer__contacts-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span><a href="tel:+73812580780" style="color:inherit; text-decoration:none;">(3812) 580-780</a>, <a href="tel:+79131570610" style="color:inherit; text-decoration:none;">+7 913 157-06-10</a></span>
+            </div>
+            <div class="footer__contacts-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span><a href="mailto:580780@list.ru" style="color:inherit; text-decoration:none;">580780@list.ru</a></span>
+            </div>
+            <div class="footer__contacts-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Пн-Пт 8:30–19:00, Сб 9:00–17:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© 1998–2026 «Инструмент на Жукова» (ООО «ТОФ Партнер»). Все права защищены.</div>
+        <div>Сайт подготовлен для интеграции с темой WordPress</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ПЛАВАЮЩИЕ КНОПКИ МЕССЕНДЖЕРОВ (WHATSAPP И TELEGRAM) -->
+  <div class="floating-messengers" id="floatingMessengers">
+    <a href="https://wa.me/79131570610" class="floating-btn floating-btn--wa" title="Написать в WhatsApp" target="_blank" rel="noopener noreferrer" id="floatingWaBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+      </svg>
+      <span class="floating-btn__tooltip">WhatsApp</span>
+    </a>
+
+    <a href="https://t.me/placeholder" class="floating-btn floating-btn--tg" title="Написать в Telegram" target="_blank" rel="noopener noreferrer" id="floatingTgBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+      </svg>
+      <span class="floating-btn__tooltip">Telegram</span>
+    </a>
+  </div>
+
+  <!-- Основной скрипт -->
+  <script type="module" src="/assets/js/products-data.js"></script>
+  <script type="module" src="/assets/js/script.js"></script>
+</body>
+</html>

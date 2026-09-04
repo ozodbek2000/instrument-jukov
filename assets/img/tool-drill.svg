@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="110" fill="#F8FAFC"/>
+  <!-- SDS-Max Rotary Hammer Illustration -->
+  <g transform="translate(70, 70)">
+    <!-- Drill Bit -->
+    <path d="M260 80 L300 80 M270 76 L275 84 M285 76 L290 84" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+    <path d="M220 74 L260 74 L260 86 L220 86 Z" fill="#334155" stroke="#1E293B" stroke-width="2"/>
+    <path d="M200 68 L220 70 L220 90 L200 92 Z" fill="#C12936" stroke="#991B1B" stroke-width="2"/>
+    <!-- Main Body -->
+    <path d="M60 60 L195 62 L200 105 L160 115 L60 110 Z" fill="#1E293B" stroke="#0F172A" stroke-width="2"/>
+    <!-- Accent Housing -->
+    <path d="M80 65 L170 66 L175 95 L80 95 Z" fill="#C12936"/>
+    <!-- Ventilation slots -->
+    <line x1="95" y1="75" x2="120" y2="75" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="95" y1="82" x2="120" y2="82" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="95" y1="89" x2="120" y2="89" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <!-- Handle -->
+    <path d="M60 65 C30 65 20 80 20 110 C20 145 35 155 60 155 L75 155 L75 125 L55 125 C45 125 40 120 40 110 C40 95 48 85 60 85 Z" fill="#0F172A"/>
+    <!-- Trigger -->
+    <path d="M45 100 L55 100 L55 115 L45 112 Z" fill="#C12936"/>
+    <!-- Side Auxiliary Handle -->
+    <path d="M190 95 L190 145 L175 145 L175 95 Z" fill="#334155"/>
+    <rect x="170" y="145" width="25" height="40" rx="4" fill="#0F172A"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="110" fill="#F8FAFC"/>
+  <!-- Chainsaw Illustration -->
+  <g transform="translate(60, 75)">
+    <!-- Guide Bar & Chain -->
+    <path d="M160 85 L280 85 C295 85 295 105 280 105 L160 105 Z" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+    <line x1="170" y1="95" x2="270" y2="95" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6 3"/>
+    <!-- Engine Body -->
+    <path d="M40 70 L160 70 L160 125 L40 125 Z" rx="10" fill="#C12936" stroke="#991B1B" stroke-width="2"/>
+    <!-- Starter cover / Black accents -->
+    <circle cx="95" cy="98" r="22" fill="#1E293B"/>
+    <circle cx="95" cy="98" r="8" fill="#475569"/>
+    <!-- Top Handle -->
+    <path d="M70 70 C70 40 130 40 130 70" fill="none" stroke="#0F172A" stroke-width="8" stroke-linecap="round"/>
+    <!-- Handguard -->
+    <path d="M145 50 L145 80" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Rear Handle -->
+    <path d="M40 85 L10 85 L10 115 L40 115" fill="none" stroke="#0F172A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
