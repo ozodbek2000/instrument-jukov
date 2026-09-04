@@ -4,11 +4,11 @@
       </svg>
       <span>${s}</span>
     `,n.classList.add("active"),setTimeout(()=>{n.classList.remove("active")},4500)}function $(){const s=document.getElementById("mainProductImg");if(!s)return;const i=window.PRODUCTS_DATA||[];if(!i.length)return;const l=new URLSearchParams(window.location.search).get("sku");let e=null;l&&(e=i.find(a=>a.sku.toLowerCase()===l.toLowerCase())||i.find(a=>a.sku.toLowerCase().includes(l.toLowerCase()))||i.find(a=>l.toLowerCase().includes(a.sku.toLowerCase()))),e||(e=i[0]),document.title=`${e.name} — купить в Омске | Инструмент на Жукова`;const p=document.querySelector(".breadcrumbs");p&&(p.innerHTML=`
-        <a href="/">Главная</a>
+        <a href="index.html">Главная</a>
         <span class="breadcrumbs__separator">/</span>
-        <a href="/catalog.html">Каталог</a>
+        <a href="catalog.html">Каталог</a>
         <span class="breadcrumbs__separator">/</span>
-        <a href="/catalog.html#${e.categoryFilter}">${e.subCategory}</a>
+        <a href="catalog.html#${e.categoryFilter}">${e.subCategory}</a>
         <span class="breadcrumbs__separator">/</span>
         <span>${e.shortName||e.name}</span>
       `),s.src=e.image,s.alt=e.name;const D=document.querySelector(".product-gallery__thumbs");if(D){D.innerHTML=`
@@ -45,7 +45,7 @@
           <div class="product-card__body">
             <span class="product-card__category">${r.categoryName} • ${r.brand}</span>
             <h3 class="product-card__title">
-              <a href="/product.html?sku=${encodeURIComponent(r.sku)}">${r.shortName||r.name}</a>
+              <a href="product.html?sku=${encodeURIComponent(r.sku)}">${r.shortName||r.name}</a>
             </h3>
             <p class="product-card__specs-short">${r.specsShort}</p>
             <div class="product-card__footer">
@@ -53,7 +53,7 @@
                 <span class="product-card__price">${r.price.toLocaleString("ru-RU")} ₽</span>
                 <span class="product-card__price-sub">Прокат: от ${r.rentPrice} ₽/сут</span>
               </div>
-              <a href="/product.html?sku=${encodeURIComponent(r.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
+              <a href="product.html?sku=${encodeURIComponent(r.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
             </div>
           </div>
         </article>
