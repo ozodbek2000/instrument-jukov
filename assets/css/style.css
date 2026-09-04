@@ -314,8 +314,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo img {
-  height: 44px;
+  height: 54px;
   width: auto;
+  max-width: 280px;
 }
 
 /* Главное меню */
@@ -2290,8 +2291,8 @@ textarea.form-control {
   }
 
   .logo img {
-    height: 36px;
-    max-width: 145px;
+    height: 48px;
+    max-width: 210px;
     object-fit: contain;
   }
 
@@ -2373,8 +2374,8 @@ textarea.form-control {
   }
 
   .logo img {
-    height: 32px;
-    max-width: 125px;
+    height: 42px;
+    max-width: 180px;
   }
 
   .header__phone-number {
