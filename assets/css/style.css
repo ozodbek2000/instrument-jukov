@@ -134,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   user-select: none;
   border: 1px solid transparent;
+  max-width: 100%;
 }
 
 .btn-primary {
@@ -1021,7 +1022,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .products-action-center {
   margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.products-action-center .btn {
+  white-space: normal;
   text-align: center;
+  line-height: 1.35;
 }
 
 /* 11. ЭТАПЫ СОТРУДНИЧЕСТВА (Clean Utility Steps) */
@@ -2292,6 +2301,22 @@ textarea.form-control {
 }
 
 @media (max-width: 640px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .btn-lg {
+    padding: 12px 18px;
+    font-size: 0.875rem;
+    white-space: normal;
+  }
+
+  .products-action-center .btn {
+    width: 100%;
+    padding: 12px 16px;
+  }
+
   .header__top {
     display: none;
   }
