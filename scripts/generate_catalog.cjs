@@ -262,8 +262,8 @@ const mainRegex = /<main>[\s\S]*?<\/main>/;
 catalogHtml = catalogHtml.replace(mainRegex, mainContentHtml);
 
 // Ensure scripts have type="module"
-catalogHtml = catalogHtml.replace(/<script src="\/assets\/js\/products-data\.js"><\/script>/g, '<script type="module" src="/assets/js/products-data.js"></script>');
-catalogHtml = catalogHtml.replace(/<script src="\/assets\/js\/script\.js"><\/script>/g, '<script type="module" src="/assets/js/script.js"></script>');
+catalogHtml = catalogHtml.replace(/<script src="\/assets\/js\/products-data\.js"><\/script>/g, '<script type="module" src="assets/js/products-data.js"></script>');
+catalogHtml = catalogHtml.replace(/<script src="\/assets\/js\/script\.js"><\/script>/g, '<script type="module" src="assets/js/script.js"></script>');
 
 fs.writeFileSync(path.join(__dirname, '../catalog.html'), catalogHtml, 'utf-8');
 console.log('Successfully generated clean, balanced catalog.html with 45 products, mobile chips, dynamic pagination, and feedback section!');

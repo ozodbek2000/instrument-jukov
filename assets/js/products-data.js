@@ -69,7 +69,7 @@ window.PRODUCTS_DATA = [
       "Руководство по эксплуатации и гарантийный талон"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/AsCbRp2ChxpspA",
-    "image": "/assets/img/products/dck/KDJZ23-10.png",
+    "image": "assets/img/products/dck/KDJZ23-10.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -141,7 +141,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/HUjHuyBmKf_OZA",
-    "image": "/assets/img/products/dck/KDJZ1250.png",
+    "image": "assets/img/products/dck/KDJZ1250.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -204,7 +204,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/xN7FG1CsFUiP1g",
-    "image": "/assets/img/products/dck/KDPL04-8.png",
+    "image": "assets/img/products/dck/KDPL04-8.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -266,7 +266,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/UBJI2jJ3f7DOxA",
-    "image": "/assets/img/products/dck/KDMD12.png",
+    "image": "assets/img/products/dck/KDMD12.png",
     "categoryFilter": "multi",
     "categories": [
       "multi"
@@ -323,7 +323,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/foQHJ4IOxbQGZw?download=1",
-    "image": "/assets/img/products/dck/KDPM50.png",
+    "image": "assets/img/products/dck/KDPM50.png",
     "categoryFilter": "multi",
     "categories": [
       "multi"
@@ -387,7 +387,7 @@ window.PRODUCTS_DATA = [
       "Чемодан"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/rOBoTKA_tlpKyg",
-    "image": "/assets/img/products/dck/KDJF15.png",
+    "image": "assets/img/products/dck/KDJF15.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -451,7 +451,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/MRuFw5E_TapNJg",
-    "image": "/assets/img/products/dck/KDQF32.png",
+    "image": "assets/img/products/dck/KDQF32.png",
     "isGarden": true,
     "categoryFilter": "garden",
     "categories": [
@@ -515,7 +515,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/rxa2YU0Jcfr-vA",
-    "image": "/assets/img/products/dck/KDPL208.png",
+    "image": "assets/img/products/dck/KDPL208.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -581,7 +581,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/lSWVoWsSotizjQ",
-    "image": "/assets/img/products/dck/KDPB358.png",
+    "image": "assets/img/products/dck/KDPB358.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -647,7 +647,7 @@ window.PRODUCTS_DATA = [
       "Ударопрочный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/wvtimOUfUaVErw",
-    "image": "/assets/img/products/dck/KDPB698.png",
+    "image": "assets/img/products/dck/KDPB698.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -713,7 +713,7 @@ window.PRODUCTS_DATA = [
       "Фирменный защитный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/SrrxaJERBJCWwQ",
-    "image": "/assets/img/products/dck/KDPB1288.png",
+    "image": "assets/img/products/dck/KDPB1288.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -780,7 +780,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/3XME7cuWBvKGDA",
-    "image": "/assets/img/products/dck/KDJZ2060.png",
+    "image": "assets/img/products/dck/KDJZ2060.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -846,7 +846,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/dvv4R8vYj1G6UQ",
-    "image": "/assets/img/products/dck/KDJZ2060i.png",
+    "image": "assets/img/products/dck/KDJZ2060i.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -913,7 +913,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/n0NXlkE5GuqbVQ",
-    "image": "/assets/img/products/dck/KDJZ2090.png",
+    "image": "assets/img/products/dck/KDJZ2090.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -977,7 +977,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/9T5kVxSGpwgsYQ",
-    "image": "/assets/img/products/dck/KDJZ03-13.png",
+    "image": "assets/img/products/dck/KDJZ03-13.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -1040,7 +1040,7 @@ window.PRODUCTS_DATA = [
       "Фирменный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/IB6x_vifnR0VOw",
-    "image": "/assets/img/products/dck/KDJZ20160I.png",
+    "image": "assets/img/products/dck/KDJZ20160I.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -1108,7 +1108,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/5b7OLoRgfvs7Jw",
-    "image": "/assets/img/products/dck/KDZC22.png",
+    "image": "assets/img/products/dck/KDZC22.png",
     "categoryFilter": "rotary",
     "categories": [
       "rotary"
@@ -1175,7 +1175,7 @@ window.PRODUCTS_DATA = [
       "Фирменный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/N1caxHOVXaV-EA",
-    "image": "/assets/img/products/dck/KRH20V-26.png",
+    "image": "assets/img/products/dck/KRH20V-26.png",
     "categoryFilter": "rotary",
     "categories": [
       "rotary"
@@ -1242,7 +1242,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/yX5TxpwxhPzyRQ",
-    "image": "/assets/img/products/dck/KRH20V-28.png",
+    "image": "assets/img/products/dck/KRH20V-28.png",
     "categoryFilter": "rotary",
     "categories": [
       "rotary"
@@ -1307,7 +1307,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/xyF5qW22bKEm4w",
-    "image": "/assets/img/products/dck/KDSM03-125.png",
+    "image": "assets/img/products/dck/KDSM03-125.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -1367,7 +1367,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/wgykWOPugNriQw",
-    "image": "/assets/img/products/dck/KDSM04-125.png",
+    "image": "assets/img/products/dck/KDSM04-125.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -1431,7 +1431,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/0H_o9AvGIwdQNg",
-    "image": "/assets/img/products/dck/KDMQ85.png",
+    "image": "assets/img/products/dck/KDMQ85.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -1494,7 +1494,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/K_JR2hQFouz81w",
-    "image": "/assets/img/products/dck/KDMY02-185.png",
+    "image": "assets/img/products/dck/KDMY02-185.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -1557,7 +1557,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/KpCs1EJ4IqnB6A",
-    "image": "/assets/img/products/dck/KDJF22.png",
+    "image": "assets/img/products/dck/KDJF22.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -1621,7 +1621,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/mK7MmKrCwFrGYA",
-    "image": "/assets/img/products/dck/KDCS20061.png",
+    "image": "assets/img/products/dck/KDCS20061.png",
     "isGarden": true,
     "categoryFilter": "saws",
     "categories": [
@@ -1682,7 +1682,7 @@ window.PRODUCTS_DATA = [
       "Кейс K-Box"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/7PFgZbp6P8qMAA",
-    "image": "/assets/img/products/dck/KDKIT29.png",
+    "image": "assets/img/products/dck/KDKIT29.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -1740,7 +1740,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/pZriuTBzTWD00g",
-    "image": "/assets/img/products/dck/KJZ10-10.png",
+    "image": "assets/img/products/dck/KJZ10-10.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -1800,7 +1800,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/rBs9ZumFajXp9g",
-    "image": "/assets/img/products/dck/KJZ06-13K.png",
+    "image": "assets/img/products/dck/KJZ06-13K.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"
@@ -1862,7 +1862,7 @@ window.PRODUCTS_DATA = [
       "Ударопрочный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/XgcJWeOUaDAa8Q",
-    "image": "/assets/img/products/dck/KZC05-26B.png",
+    "image": "assets/img/products/dck/KZC05-26B.png",
     "categoryFilter": "rotary",
     "categories": [
       "rotary"
@@ -1930,7 +1930,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/HbXOA3ZHNLjupw",
-    "image": "/assets/img/products/dck/KRH1200-30.png",
+    "image": "assets/img/products/dck/KRH1200-30.png",
     "categoryFilter": "rotary",
     "categories": [
       "rotary"
@@ -1997,7 +1997,7 @@ window.PRODUCTS_DATA = [
       "Ударопрочный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/es-xr8SbQsC30w",
-    "image": "/assets/img/products/dck/KZC45.png",
+    "image": "assets/img/products/dck/KZC45.png",
     "isHeavy": true,
     "categoryFilter": "rotary",
     "categories": [
@@ -2055,7 +2055,7 @@ window.PRODUCTS_DATA = [
       "Металлический кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/Joz9RhNT0FUMiQ",
-    "image": "/assets/img/products/dck/KZG02-15.png",
+    "image": "assets/img/products/dck/KZG02-15.png",
     "isHeavy": true,
     "categoryFilter": "rotary",
     "categories": [
@@ -2117,7 +2117,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/3oobmioruqfyXw",
-    "image": "/assets/img/products/dck/KZR02-150.png",
+    "image": "assets/img/products/dck/KZR02-150.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2177,7 +2177,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/vZ0PyUK6JMPiMw",
-    "image": "/assets/img/products/dck/KSM03-125S.png",
+    "image": "assets/img/products/dck/KSM03-125S.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2232,7 +2232,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/onTbi4h8aEuQ7A",
-    "image": "/assets/img/products/dck/KSM10-125.png",
+    "image": "assets/img/products/dck/KSM10-125.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2291,7 +2291,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/w4W9L4krmePbbg",
-    "image": "/assets/img/products/dck/KSM06-230.png",
+    "image": "assets/img/products/dck/KSM06-230.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2353,7 +2353,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/KZPdRpZXWCItrw",
-    "image": "/assets/img/products/dck/KSA02-125.png",
+    "image": "assets/img/products/dck/KSA02-125.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2408,7 +2408,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/s1Z8t2C16QMLfQ",
-    "image": "/assets/img/products/dck/KSB02-100.png",
+    "image": "assets/img/products/dck/KSB02-100.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2468,7 +2468,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/DBZsUwsYq78CIw",
-    "image": "/assets/img/products/dck/KSJ06-25.png",
+    "image": "assets/img/products/dck/KSJ06-25.png",
     "categoryFilter": "grinders",
     "categories": [
       "grinders"
@@ -2526,7 +2526,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/i04IHGzyoxrnwA",
-    "image": "/assets/img/products/dck/KJF30.png",
+    "image": "assets/img/products/dck/KJF30.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -2589,7 +2589,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/YmWup-RKaD8tzw",
-    "image": "/assets/img/products/dck/KMY04-185.png",
+    "image": "assets/img/products/dck/KMY04-185.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -2653,7 +2653,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/Ii6krGkOM9fdpg",
-    "image": "/assets/img/products/dck/KJX03-255.png",
+    "image": "assets/img/products/dck/KJX03-255.png",
     "categoryFilter": "saws",
     "categories": [
       "saws"
@@ -2713,7 +2713,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/flv6Xmyqahp5EQ",
-    "image": "/assets/img/products/dck/KMB03-82.png",
+    "image": "assets/img/products/dck/KMB03-82.png",
     "categoryFilter": "multi",
     "categories": [
       "multi"
@@ -2773,7 +2773,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/38RNI8DzDCMmXg",
-    "image": "/assets/img/products/dck/KMR8.png",
+    "image": "assets/img/products/dck/KMR8.png",
     "categoryFilter": "multi",
     "categories": [
       "multi"
@@ -2831,7 +2831,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/w7092ujXrK3Ecw",
-    "image": "/assets/img/products/dck/KQB04-2000.png",
+    "image": "assets/img/products/dck/KQB04-2000.png",
     "categoryFilter": "multi",
     "categories": [
       "multi"
