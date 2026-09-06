@@ -51,7 +51,7 @@
             <div class="product-card__footer">
               <div class="product-card__price-box">
                 <span class="product-card__price">${s.price.toLocaleString("ru-RU")} ₽</span>
-                <span class="product-card__price-sub">• Прокат от ${s.rentPrice} ₽/сут</span>
+                <span class="product-card__price-sub">Прокат: от ${s.rentPrice} ₽/сут</span>
               </div>
               <a href="product.html?sku=${encodeURIComponent(s.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
             </div>
