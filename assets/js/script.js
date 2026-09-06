@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-card__footer">
               <div class="product-card__price-box">
                 <span class="product-card__price">${p.price.toLocaleString('ru-RU')} ₽</span>
-                <span class="product-card__price-sub">• Прокат от ${p.rentPrice} ₽/сут</span>
+                <span class="product-card__price-sub">Прокат: от ${p.rentPrice} ₽/сут</span>
               </div>
               <a href="product.html?sku=${encodeURIComponent(p.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
             </div>
