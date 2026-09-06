@@ -145,11 +145,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const skuParam = urlParams.get('sku');
 
+    function cleanSkuStr(str) {
+      return String(str || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
     let current = null;
     if (skuParam) {
-      current = products.find(p => p.sku.toLowerCase() === skuParam.toLowerCase())
-        || products.find(p => p.sku.toLowerCase().includes(skuParam.toLowerCase()))
-        || products.find(p => skuParam.toLowerCase().includes(p.sku.toLowerCase()));
+      const decodedSku = decodeURIComponent(skuParam);
+      const targetClean = cleanSkuStr(decodedSku);
+      current = products.find(p => cleanSkuStr(p.sku) === targetClean)
+        || products.find(p => p.sku.toLowerCase() === decodedSku.toLowerCase())
+        || products.find(p => cleanSkuStr(p.sku).includes(targetClean))
+        || products.find(p => targetClean.includes(cleanSkuStr(p.sku)));
     }
 
     if (!current) {
@@ -341,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-card__footer">
               <div class="product-card__price-box">
                 <span class="product-card__price">${p.price.toLocaleString('ru-RU')} ₽</span>
-                <span class="product-card__price-sub">Прокат: от ${p.rentPrice} ₽/сут</span>
+                <span class="product-card__price-sub">• Прокат от ${p.rentPrice} ₽/сут</span>
               </div>
               <a href="product.html?sku=${encodeURIComponent(p.sku)}" class="btn btn-outline btn-sm">Подробнее</a>
             </div>

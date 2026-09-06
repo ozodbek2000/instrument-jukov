@@ -266,7 +266,7 @@ window.PRODUCTS_DATA = [
       "Пластиковый кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/UBJI2jJ3f7DOxA",
-    "image": "assets/img/products/dck/KDMD12.png",
+    "image": "assets/img/products/1.jpg",
     "categoryFilter": "multi",
     "categories": [
       "multi"
@@ -323,7 +323,7 @@ window.PRODUCTS_DATA = [
       "Кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/foQHJ4IOxbQGZw?download=1",
-    "image": "assets/img/products/dck/KDPM50.png",
+    "image": "assets/img/products/dck/KDJZ1250.png",
     "categoryFilter": "multi",
     "categories": [
       "multi"
@@ -451,7 +451,7 @@ window.PRODUCTS_DATA = [
       "Коробка"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/MRuFw5E_TapNJg",
-    "image": "assets/img/products/dck/KDQF32.png",
+    "image": "assets/img/products/dck/KDCS20061.png",
     "isGarden": true,
     "categoryFilter": "garden",
     "categories": [
@@ -647,7 +647,7 @@ window.PRODUCTS_DATA = [
       "Ударопрочный кейс"
     ],
     "yandexUrl": "https://disk.yandex.ru/i/wvtimOUfUaVErw",
-    "image": "assets/img/products/dck/KDPB698.png",
+    "image": "assets/img/products/dck/KDPB358.png",
     "categoryFilter": "drills",
     "categories": [
       "drills"

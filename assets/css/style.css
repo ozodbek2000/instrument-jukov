@@ -1210,11 +1210,16 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .product-card__price-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
 }
 
 .product-card__price {
@@ -1223,11 +1228,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   color: var(--color-dark);
   letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .product-card__price-sub {
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   color: var(--color-text-muted);
+  white-space: nowrap;
 }
 
 .products-action-center {
