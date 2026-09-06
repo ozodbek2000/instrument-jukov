@@ -139,29 +139,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainProductImg = document.getElementById('mainProductImg');
     if (!mainProductImg) return; // Не страница товара
 
-    const products = window.PRODUCTS_DATA || [];
-    if (!products.length) return;
+    // Поддержка кликов по миниатюрам галереи
+    const thumbsContainer = document.querySelector('.product-gallery__thumbs');
+    function setupThumbListeners() {
+      if (!thumbsContainer) return;
+      const allThumbs = thumbsContainer.querySelectorAll('.product-gallery__thumb');
+      allThumbs.forEach(thumb => {
+        thumb.addEventListener('click', function () {
+          allThumbs.forEach(t => t.classList.remove('active'));
+          this.classList.add('active');
+          const newSrc = this.getAttribute('data-img');
+          if (newSrc) mainProductImg.src = newSrc;
+        });
+      });
+    }
+    setupThumbListeners();
 
     const urlParams = new URLSearchParams(window.location.search);
     const skuParam = urlParams.get('sku');
+    if (!skuParam) return; // Если URL без ?sku=..., сохраняем оригинальную карточку товара первой версии
+
+    const products = window.PRODUCTS_DATA || [];
+    if (!products.length) return;
 
     function cleanSkuStr(str) {
       return String(str || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     }
 
-    let current = null;
-    if (skuParam) {
-      const decodedSku = decodeURIComponent(skuParam);
-      const targetClean = cleanSkuStr(decodedSku);
-      current = products.find(p => cleanSkuStr(p.sku) === targetClean)
-        || products.find(p => p.sku.toLowerCase() === decodedSku.toLowerCase())
-        || products.find(p => cleanSkuStr(p.sku).includes(targetClean))
-        || products.find(p => targetClean.includes(cleanSkuStr(p.sku)));
-    }
+    const decodedSku = decodeURIComponent(skuParam);
+    const targetClean = cleanSkuStr(decodedSku);
+    const current = products.find(p => cleanSkuStr(p.sku) === targetClean)
+      || products.find(p => p.sku.toLowerCase() === decodedSku.toLowerCase())
+      || products.find(p => cleanSkuStr(p.sku).includes(targetClean))
+      || products.find(p => targetClean.includes(cleanSkuStr(p.sku)));
 
-    if (!current) {
-      current = products[0]; // По умолчанию первый товар из импортированных
-    }
+    if (!current) return;
 
     // Обновляем title страницы
     document.title = `${current.name} — купить в Омске | Инструмент на Жукова`;
@@ -185,7 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
     mainProductImg.alt = current.name;
 
     // Миниатюры в галерее
-    const thumbsContainer = document.querySelector('.product-gallery__thumbs');
     if (thumbsContainer) {
       thumbsContainer.innerHTML = `
         <div class="product-gallery__thumb active" data-img="${current.image}">
@@ -193,16 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `;
 
-      // Добавим клик для переключения
-      const allThumbs = thumbsContainer.querySelectorAll('.product-gallery__thumb');
-      allThumbs.forEach(thumb => {
-        thumb.addEventListener('click', function () {
-          allThumbs.forEach(t => t.classList.remove('active'));
-          this.classList.add('active');
-          const newSrc = this.getAttribute('data-img');
-          if (newSrc) mainProductImg.src = newSrc;
-        });
-      });
+      setupThumbListeners();
     }
 
     // Заголовок товара
