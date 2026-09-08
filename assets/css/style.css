@@ -989,6 +989,91 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
+/* 8б. B2B БЛОК */
+.b2b-block {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: center;
+  background-color: var(--color-dark);
+  border-radius: var(--border-radius);
+  padding: 52px 56px;
+  color: #fff;
+}
+
+.b2b-block__content .section__tag {
+  background-color: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.85);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.b2b-block__content .section__title {
+  color: #fff;
+}
+
+.b2b-block__text {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.b2b-block__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.b2b-block__list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9375rem;
+  color: rgba(255,255,255,0.88);
+}
+
+.b2b-block__list li svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--color-primary);
+}
+
+.b2b-block__icon-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.b2b-block__icon-box {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.6);
+}
+
+.b2b-block__icon-box svg {
+  width: 56px;
+  height: 56px;
+  stroke-width: 1.5;
+}
+
+.b2b-block__caption {
+  font-size: 0.8125rem;
+  color: rgba(255,255,255,0.45);
+  text-align: center;
+}
+
+
 /* 9. НАШИ УСЛУГИ (Clean Utility Services) */
 .services__grid {
   display: grid;
@@ -2519,6 +2604,16 @@ textarea.form-control {
 
   .feedback-grid {
     grid-template-columns: 1fr;
+  }
+
+  .b2b-block {
+    grid-template-columns: 1fr;
+    padding: 36px 28px;
+    gap: 32px;
+  }
+
+  .b2b-block__icon-side {
+    display: none;
   }
 
   .product-hero-grid {
