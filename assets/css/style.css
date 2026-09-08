@@ -738,8 +738,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero__mascot-img {
-  width: 130px;
-  height: 130px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   transition: transform 0.35s ease;
 }
