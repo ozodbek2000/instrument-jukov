@@ -1965,6 +1965,10 @@ textarea.form-control {
   background-color: var(--color-whatsapp);
 }
 
+.floating-btn--max {
+  background: linear-gradient(135deg, #2B66FF 0%, #7933FF 100%);
+}
+
 .floating-btn--tg {
   background-color: var(--color-telegram);
 }
